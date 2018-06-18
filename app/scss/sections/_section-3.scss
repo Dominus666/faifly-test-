@@ -1,0 +1,58 @@
+.section-3 {
+    padding: 70px 0 100px;
+    .caption{
+        text-align: center;
+        h2{
+            font-family: "PlayfairDisplay-Black";
+            font-size: 22px;
+            color:#413d4b;
+            text-transform: uppercase;
+            margin: 0 0 15px;
+        }
+        span{
+            font-family: "PlayfairDisplay-Black";
+            font-size: 14px;
+            color:#413d4b;
+            
+            &:after {
+                content: "";
+                width: 50px;
+                height: 1px;
+                background-color: #413d4b;
+                margin: 20px auto 0;
+                display: block;
+            }
+        }
+    }
+    .row:first-child{
+        margin-top:100px;
+        border-bottom: 1px solid #ebebeb;
+
+    }
+    .row:last-child {
+        margin-top: 40px;
+    }
+    .skills{
+
+        text-align: center;
+
+        h3{
+
+            font-family: "Roboto-black";
+            font-size: 14px;
+            text-transform: uppercase;
+            color:#413d4b;
+            margin-top: 35px;
+        }
+        p{
+
+            font-family: "Roboto-light";
+            font-size: 14px;
+            color:#333333;
+            line-height: 2;
+            margin-bottom: 40px;
+
+        }
+    }
+    
+}

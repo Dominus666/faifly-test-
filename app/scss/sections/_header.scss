@@ -1,0 +1,102 @@
+.opacity-bkg {
+    background-color: rgba(32,28, 65, 0.95);
+    height: 100%;
+}
+
+
+
+//START HEADER
+
+
+
+header {
+    background-image: url(/img/bg/header_bkg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+     
+    .header {
+
+        .logo-navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 15px;
+    
+            .logo {
+    
+            }
+    
+            .navbar {
+                & ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin: 0;
+    
+                    li {
+    
+                        a {
+                            font-family: "Roboto-black";
+                            font-size: 13px;
+                            color:white;
+                            text-transform: uppercase;
+                            text-decoration: none;
+    
+                            &:hover{
+                                color:#00e0d0;
+                            }
+                        }
+    
+                    }
+    
+                    li:not(:last-child){
+                        margin-right: 25px;
+                    }
+                }
+            }
+        }
+        .first-slider {
+            max-width: 780px;
+            margin: 180px auto 80px;
+            text-align: center;
+            h2{
+                font-family: "PlayfairDisplay-Black";
+                color:white;
+                font-size: 32px;
+                margin:0;
+                &:after {
+                    content: "";
+                    width: 50px;
+                    height: 1px;
+                    background-color: #00e0d0;
+                    margin: 30px auto;
+                    display: block;
+                }
+            }
+            p{
+                font-family: "Roboto-light";
+                font-size: 14px;
+                color:white;
+                margin: 0;
+            }
+            a{  
+                margin: 70px 0 140px;
+                font-family: "HammersmithOne-Regular";
+                font-size: 16px;
+                color:#00e0d0;
+                text-transform: uppercase;
+                padding: 15px 30px;
+                border: solid 1px #00e0d0;
+                display: inline-block;
+                text-decoration: none; 
+            }
+        
+        }
+    }
+    
+}
+
+//END HEADER
+
+// STAR SECTION-1
+

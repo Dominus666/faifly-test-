@@ -1,0 +1,55 @@
+.section-6{
+    background-image: url(/img/bg/section-6-bkg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    .opacity-bkg{
+        padding: 70px 0;
+
+        .caption{
+            span{
+                font-family: "PlayfairDisplay-Regular";
+                font-size: 60px;
+                color:white;
+            }
+            p{
+                font-family: "PlayfairDisplay-Regular";
+                font-size: 16px;
+                color:white;  
+                max-width: 780px;
+                margin: 0 auto; 
+            }
+        }
+        .group-ceo{
+            margin: 50px 0 40px;
+            span:first-child{
+                font-family: "Roboto-black";
+                font-size: 14px;
+                text-transform: uppercase;
+                color:white;
+                display: block;
+                margin-bottom: 15px;
+            } 
+            span:last-child{
+                font-family: "Roboto-light";
+                font-size: 13px;
+                text-transform: uppercase;
+                color:white;
+                display: block;
+            }
+        }
+        .second-slider{
+            max-width: 400px;
+            margin: 0 auto;
+
+            & img{
+                margin: 0 auto;
+            }
+            .slick-center img{
+                width: 60px;
+                height: 60px;
+            }
+        }
+    }
+}

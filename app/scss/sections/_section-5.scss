@@ -1,0 +1,44 @@
+.section-5 {
+    text-align: center;
+    .allworks {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 70px 0;
+        .ourworks{
+            text-transform: uppercase;
+            color:#413d4b;
+            font-family: "PlayfairDisplay-Black";
+            font-size: 22px;
+        }
+        .seeworks{
+            a{
+                color:#413d4b;
+                font-family: "Roboto-light";
+                font-size: 14px;
+                text-decoration: none;
+            }
+            
+        }
+    }
+    .col-lg-2{
+        padding: 0;
+    }
+    .work img{
+        width: 100%;
+    }
+    .loadworks{
+        a{
+            margin: 70px 0 70px;
+            font-family: "HammersmithOne-Regular";
+            font-size: 16px;
+            color:#00e0d0;
+            text-transform: uppercase;
+            padding: 15px 30px;
+            border: solid 1px #00e0d0;
+            display: inline-block;
+            text-decoration: none; 
+        }
+    }
+    
+}          
